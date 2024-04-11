@@ -2,7 +2,8 @@
 
 current_dir=$(pwd)
 
-for ((i=0; i<2; i++)); do
+# выставить (i=0; i<2; i++), если программа запускается через скрипты из modules
+for ((i=0; i<1; i++)); do
     current_dir=$(dirname "$current_dir")
 done
 
