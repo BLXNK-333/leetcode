@@ -42,3 +42,12 @@ class OrganizeRepoManager:
         """
         controller = ScriptController()
         controller.remove_all_descriptions()
+
+    @staticmethod
+    def add_missing_descriptions() -> None:
+        """Скрипт добавляет недостающие описания к файлам.
+
+        :return: None
+        """
+        controller = ScriptController()
+        controller.add_missing_descriptions()

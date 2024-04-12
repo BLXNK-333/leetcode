@@ -5,7 +5,7 @@ from collections import defaultdict
 from typing import Dict, List, Any, Tuple
 
 
-def get_real_map(all_files: List[str]) -> Dict[str, Dict[str, str]]:
+def get_real_map(all_files: List[str]) -> Dict[str, Dict[str, Any]]:
     """Генерирует словарь, сопоставляющий имена задач с путями к файлам в каталоге.
 
     :param all_files: Список с путями к файлам.
@@ -15,7 +15,9 @@ def get_real_map(all_files: List[str]) -> Dict[str, Dict[str, str]]:
     for path in all_files:
         task_w_ext = basename(path)
         task = splitext(task_w_ext)[0]
-        real[task][task_w_ext] = path
+        if "files" not in real[task]:
+            real[task]["files"] = {}
+        real[task]["files"][task_w_ext] = path
     return real
 
 
@@ -47,7 +49,7 @@ def get_table_map(rows_array: List[str]) -> Dict[str, Dict[str, Any]]:
 
 
 def get_tasks_for_query(table: Dict[str, Dict[str, Any]],
-                        real: Dict[str, Dict[str, str]]) -> Dict[str, Dict[str, Any]]:
+                        real: Dict[str, Dict[str, Any]]) -> Dict[str, Dict[str, Any]]:
     """Определяет задачи, присутствующие в реальном каталоге, но не в таблице.
 
     :param table: Словарь, представляющий таблицу из README.md.
@@ -58,9 +60,9 @@ def get_tasks_for_query(table: Dict[str, Dict[str, Any]],
     queries_map = defaultdict(dict)
     for task in real:
         if task not in table:
-            queries_map[task]["files"] = real[task]
+            queries_map[task]["files"] = real[task]["files"]
             continue
-        for task_ext, path in real[task].items():
+        for task_ext, path in real[task]["files"].items():
             if task_ext not in table[task]["files"]:
                 if "files" not in queries_map[task]:
                     queries_map[task]["files"] = {}
@@ -85,10 +87,10 @@ def remove_non_existing_entries(table: Dict[str, Dict[str, Any]],
         files_to_remove = []
 
         for task_ext, path in task_data["files"].items():
-            if task_ext not in real[task]:
+            if task_ext not in real[task]["files"]:
                 files_to_remove.append(task_ext)
-            elif table[task]["files"][task_ext] != real[task][task_ext]:
-                table[task]["files"][task_ext] = real[task][task_ext]
+            elif table[task]["files"][task_ext] != real[task]["files"][task_ext]:
+                table[task]["files"][task_ext] = real[task]["files"][task_ext]
 
         for task_ext in files_to_remove:
             del table[task]["files"][task_ext]

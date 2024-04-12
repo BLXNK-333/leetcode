@@ -13,7 +13,9 @@ from table import (get_table_map,
                    get_tasks_for_query,
                    merge_tables,
                    convert_table)
-from description import remove_all_descriptions, add_all_descriptions
+from description import (remove_all_descriptions,
+                         add_all_descriptions,
+                         find_missing_descriptions)
 from query import execute_queries, show_invalid_queries
 from utils import print_LOG
 
@@ -117,4 +119,17 @@ class ScriptController:
         """
         print_LOG("Remove all descriptions")
         remove_all_descriptions(self.directory, self.all_files)
-        self.update_README_MD()
+
+    def add_missing_descriptions(self):
+        """
+        Используйте, если в некоторых файлах с задачами отсутствуют описания и вы хотите
+        добавить их только для них.
+
+        :return: None
+        """
+        print_LOG("Add missing descriptions")
+        missing = find_missing_descriptions(self.directory, self.all_files)
+        queries_map = get_real_map(missing)
+        execute_queries(queries_map)
+        add_all_descriptions(self.directory, queries_map)
+        print("Complete.")

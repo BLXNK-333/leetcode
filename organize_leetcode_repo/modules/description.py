@@ -1,6 +1,7 @@
+import os.path
 from os.path import join as join_paths, splitext
 from bs4 import BeautifulSoup
-from re import sub, escape, match
+from re import sub, escape, match, search
 from textwrap import wrap
 from typing import List, Dict, Any
 
@@ -25,6 +26,27 @@ multi_line_comments = {
 }
 
 
+def read_file(path: str) -> List[str]:
+    """Читает файл с задачей
+
+    :param path: Абсолютный путь к файлу.
+    :return: Список строк из файла, без пустых строк в начале
+    """
+    with open(path, "r") as file:
+        lines = []
+        while True:
+            line = file.readline()
+            if not line:
+                break
+            text = search(r"\S", line)
+            if not text:
+                continue
+            lines.append(line)
+            break
+        lines.extend(file.readlines())
+        return lines
+
+
 def add_description_to_file(path: str, description: str) -> None:
     """Добавляет описание к файлу. Описание это многострочный комментарий вначале файла.
 
@@ -32,10 +54,7 @@ def add_description_to_file(path: str, description: str) -> None:
     :param description: Описание.
     :return: None
     """
-
-    with open(path, "r") as file:
-        old = file.readlines()
-
+    old = read_file(path)
     if find_old_description(old):
         return
 
@@ -93,8 +112,23 @@ def find_old_description(old: List[str]) -> bool:
     :return: True, если старое описание найдено, в противном случае - False.
     """
     if old:
-        pattern = r'^\s*?(\"\"\"|/\*|<!--|=begin|--\[\[|: <<"COMMENT")'
+        pattern = r"""^\s*?(\"\"\"|/\*|<!--|=begin|--\[\[|: <<'COMMENT')"""
         return bool(match(pattern, old[0]))
+
+
+def find_missing_descriptions(directory: str, all_files: List[str]) -> List[str]:
+    """
+
+    :param directory: Путь к корневой директории.
+    :param all_files: Список всех файлов.
+    :return:
+    """
+    missing = []
+    for path in all_files:
+        old = read_file(os.path.join(directory, path))
+        if not find_old_description(old):
+            missing.append(path)
+    return missing
 
 
 def remove_description_from_file(path: str) -> None:
