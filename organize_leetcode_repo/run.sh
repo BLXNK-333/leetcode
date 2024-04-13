@@ -1,9 +1,13 @@
 #!/bin/bash
 
-# Чтение версии интерпретатора Python из файла config.ini
-SCRIPT_DIR="$(dirname "$0")"
+# Получаем путь к текущему скрипту
+SCRIPT_PATH=$(realpath "${BASH_SOURCE[0]}")
+# Извлекаем каталог, где находится скрипт
+SCRIPT_DIR=$(dirname "$SCRIPT_PATH")
 cd "$SCRIPT_DIR" || exit
-CONFIG_FILE="config.ini"
+CONFIG_FILE="$SCRIPT_DIR/config.ini"
+
+# Чтение версии интерпретатора Python из файла config.ini
 VENV_PATH=$(grep '^venv_path=' "$CONFIG_FILE" | cut -d '=' -f2-)
 
 # Проверка наличия переменной VENV_PATH
