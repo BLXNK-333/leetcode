@@ -57,8 +57,9 @@ def check_directory_path(SOL_PATH: str) -> None:
     """
     if not os.path.isdir(SOL_PATH):
         os.makedirs(SOL_PATH)
-        print(f"Directory '{SOL_PATH}' successfully created.\n"
-              f"Move the files with tasks to this directory.\n")
+        print(f"Директория '{SOL_PATH}' успешно создана.\n"
+              f"Переместите файлы с задачами в эту директорию.\n"
+              f"Настроить можно в config.ini.\n")
 
 
 def get_root_directory(levels_up=3):
