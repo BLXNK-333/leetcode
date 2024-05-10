@@ -3,26 +3,26 @@ from os.path import join as join_paths, splitext
 from bs4 import BeautifulSoup
 from re import sub, escape, match, search
 from textwrap import wrap
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Union
 
 
 multi_line_comments = {
-    "py": ('"""', '"""'),        # Python
-    "cpp": ("/*", "*/"),         # C++
-    "java": ("/*", "*/"),        # Java
-    "csharp": ("/*", "*/"),      # C#
-    "js": ("/*", "*/"),          # JavaScript
-    "html": ("<!--", "-->"),     # HTML
-    "css": ("/*", "*/"),         # CSS
-    "kt": ("/*", "*/"),          # Kotlin
-    "swift": ("/*", "*/"),       # Swift
-    "rs": ("/*", "*/"),          # Rust
-    "php": ("/*", "*/"),         # PHP
-    "go": ("/*", "*/"),          # Go
+    "py": ('"""', '"""'),  # Python
+    "cpp": ("/*", "*/"),  # C++
+    "java": ("/*", "*/"),  # Java
+    "csharp": ("/*", "*/"),  # C#
+    "js": ("/*", "*/"),  # JavaScript
+    "html": ("<!--", "-->"),  # HTML
+    "css": ("/*", "*/"),  # CSS
+    "kt": ("/*", "*/"),  # Kotlin
+    "swift": ("/*", "*/"),  # Swift
+    "rs": ("/*", "*/"),  # Rust
+    "php": ("/*", "*/"),  # PHP
+    "go": ("/*", "*/"),  # Go
     "ruby": ("=begin", "=end"),  # Ruby
-    "lua": ("--[[", "--]]"),     # Lua
+    "lua": ("--[[", "--]]"),  # Lua
     "sh": (": <<'COMMENT'", "COMMENT"),  # Shell
-    "sql": ("/*", "*/"),         # SQL
+    "sql": ("/*", "*/"),  # SQL
 }
 
 
@@ -70,7 +70,7 @@ def add_description_to_file(path: str, description: str) -> None:
                 file.write(row)
 
 
-def check_extension_validity(path: str) -> [str, None]:
+def check_extension_validity(path: str) -> Union[str, None]:
     """Проверяет на валидность расширение файла.
 
     :param path: Путь к файлу.
@@ -81,7 +81,9 @@ def check_extension_validity(path: str) -> [str, None]:
         return ext
 
 
-def add_all_descriptions(directory: str, queries_map: Dict[str, Dict[str, Any]]) -> None:
+def add_all_descriptions(
+    directory: str, queries_map: Dict[str, Dict[str, Any]]
+) -> None:
     """Добавляет описание ко всем файлам из tasks.
 
     :param directory: Путь к каталогу с файлами.
@@ -91,7 +93,9 @@ def add_all_descriptions(directory: str, queries_map: Dict[str, Dict[str, Any]])
     for task in queries_map:
         for _, path in queries_map[task]["files"].items():
             if "content" in queries_map[task]:
-                add_description_to_file(join_paths(directory, path), queries_map[task]["content"])
+                add_description_to_file(
+                    join_paths(directory, path), queries_map[task]["content"]
+                )
 
 
 def parse_html_content(content: str) -> str:
@@ -100,7 +104,7 @@ def parse_html_content(content: str) -> str:
     :param content: HTML-контент.
     :return: Обработанный текст.
     """
-    soup = BeautifulSoup(content, 'lxml')
+    soup = BeautifulSoup(content, "lxml")
     question = soup.get_text()
     return format_description(question)
 
@@ -114,6 +118,7 @@ def find_old_description(old: List[str]) -> bool:
     if old:
         pattern = r"""^\s*?(\"\"\"|/\*|<!--|=begin|--\[\[|: <<'COMMENT')"""
         return bool(match(pattern, old[0]))
+    return False
 
 
 def find_missing_descriptions(directory: str, all_files: List[str]) -> List[str]:
@@ -144,7 +149,7 @@ def remove_description_from_file(path: str) -> None:
     if ext:
         start = escape(multi_line_comments[ext][0])
         end = escape(multi_line_comments[ext][1])
-        content = sub(fr"{start}[\s\S]+?{end}", "", content).lstrip("\n")
+        content = sub(rf"{start}[\s\S]+?{end}", "", content).lstrip("\n")
 
         with open(path, "w") as file:
             file.write(content)
@@ -168,11 +173,11 @@ def format_description(input_string: str, max_length: int = 96) -> str:
     :param max_length: Максимальная длина строки. По умолчанию 96.
     :return: Отформатированная строка.
     """
-    lines = input_string.split('\n')
+    lines = input_string.split("\n")
     formatted_lines = []
     for line in lines:
         if line.startswith(("Example", "Constraints")):
-            formatted_lines.append('')
+            formatted_lines.append("")
         if line.strip():
             formatted_lines.extend(wrap(line, width=max_length))
-    return '\n'.join(formatted_lines)
+    return "\n".join(formatted_lines)

@@ -1,21 +1,27 @@
 from typing import Dict, Any
 
 from git_info import get_info_sh
-from file import (get_root_directory,
-                  join_paths,
-                  read_README_MD,
-                  get_all_files_in_dir,
-                  write_new_table,
-                  parse_config_options)
-from table import (get_table_map,
-                   get_real_map,
-                   remove_non_existing_entries,
-                   get_tasks_for_query,
-                   merge_tables,
-                   convert_table)
-from description import (remove_all_descriptions,
-                         add_all_descriptions,
-                         find_missing_descriptions)
+from file import (
+    get_root_directory,
+    join_paths,
+    read_README_MD,
+    get_all_files_in_dir,
+    write_new_table,
+    parse_config_options,
+)
+from table import (
+    get_table_map,
+    get_real_map,
+    remove_non_existing_entries,
+    get_tasks_for_query,
+    merge_tables,
+    convert_table,
+)
+from description import (
+    remove_all_descriptions,
+    add_all_descriptions,
+    find_missing_descriptions,
+)
 from query import execute_queries, show_invalid_queries
 from utils import print_LOG
 
@@ -56,7 +62,7 @@ class ScriptController:
 
         :return: None
         """
-        to_write = convert_table(self.readme_table, self.git_attr)
+        to_write = convert_table(self.readme_table, self.git_attr or ("",))
         write_new_table(self.MD_PATH, to_write)
 
     def description_rewriter(self) -> None:
