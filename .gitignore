@@ -4,3 +4,4 @@ __pycache__/
 solve.py
 /push.sh
 pyrightconfig.json
+.flake8

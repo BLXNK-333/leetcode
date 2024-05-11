@@ -166,7 +166,7 @@ def remove_all_descriptions(directory: str, paths: List[str]) -> None:
         remove_description_from_file(join_paths(directory, path))
 
 
-def format_description(input_string: str, max_length: int = 96) -> str:
+def format_description(input_string: str, max_length: int = 79) -> str:
     """Форматирует строку так, чтобы она вписывалась в максимальную длину строки.
 
     :param input_string: Входная строка для форматирования.
