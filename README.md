@@ -22,6 +22,7 @@
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/jump-game-ii.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/permutations.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/permutations-ii.py) | $${\color{orange}\textnormal{Medium}}$$ |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/rotate-image.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/group-anagrams.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/insert-interval.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/length-of-last-word.py) | $${\color{green}\textnormal{Easy}}$$ |
