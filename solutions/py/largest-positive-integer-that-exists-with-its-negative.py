@@ -30,12 +30,9 @@ from typing import List
 
 class Solution:
     def findMaxK(self, nums: List[int]) -> int:
-        nums.sort()
-        s = set()
+        s = set(nums)
         x = -1
         for n in nums:
-            if -n in s:
+            if n > 0 and -n in s and n > x:
                 x = n
-            else:
-                s.add(n)
         return x
