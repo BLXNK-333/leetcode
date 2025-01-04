@@ -30,6 +30,8 @@
 | 57 | [Insert Interval](https://leetcode.com/problems/insert-interval/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/insert-interval.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 58 | [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/length-of-last-word.py) | $${\color{green}\textnormal{Easy}}$$ |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/permutation-sequence.py) | $${\color{red}\textnormal{Hard}}$$ |
+| 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/unique-paths.py) | $${\color{orange}\textnormal{Medium}}$$ |
+| 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/unique-paths-ii.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-window-substring.py) | $${\color{red}\textnormal{Hard}}$$ |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/combinations.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/subsets.py) | $${\color{orange}\textnormal{Medium}}$$ |
