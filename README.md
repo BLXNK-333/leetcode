@@ -42,6 +42,7 @@
 | 64 | [Minimum Path Sum](https://leetcode.com/problems/minimum-path-sum/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-path-sum.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/plus-one.py) | $${\color{green}\textnormal{Easy}}$$ |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/text-justification.py) | $${\color{red}\textnormal{Hard}}$$ |
+| 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/simplify-path.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-window-substring.py) | $${\color{red}\textnormal{Hard}}$$ |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/combinations.py) | $${\color{orange}\textnormal{Medium}}$$ |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/subsets.py) | $${\color{orange}\textnormal{Medium}}$$ |
