@@ -30,11 +30,31 @@ class TreeNode:
 
 
 class Solution:
+    def _tree_to_row(self, node):
+        arr = []
+
+        def dfs(node):
+            if node is None:
+                arr.append("N")
+                return
+            arr.append(f"~{node.val}~")
+            dfs(node.left)
+            dfs(node.right)
+
+        dfs(node)
+        return ",".join(arr)
+
     def isSubtree(self, root: Optional[TreeNode], subRoot: Optional[TreeNode]) -> bool:
-        ...
+        orig = self._tree_to_row(root)
+        sub = self._tree_to_row(subRoot)
+        return sub in orig
+
 
 
 if __name__ == '__main__':
-    obj = Solution()
+    ROOT = TreeNode(1)
+    ROOT.left = TreeNode(1)
 
-
+    SUB = TreeNode(1)
+    sol = Solution()
+    print(sol.isSubtree(ROOT, SUB))
