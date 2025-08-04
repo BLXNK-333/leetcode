@@ -110,7 +110,7 @@ def merge_tables(queries_map: Dict[str, Any],
     :param table: Словарь, представляющий таблицу из README.md.
     :return: None
     """
-    colors = {"Easy": "green", "Medium": "orange", "Hard": "red"}
+    colors = {"Easy": "🟢 Easy", "Medium": "🟠 Medium", "Hard": "🔴 Hard"}
 
     for task in queries_map:
         r = queries_map[task]
@@ -122,8 +122,7 @@ def merge_tables(queries_map: Dict[str, Any],
         table[task]["questionFrontendId"] = fr" {r["questionFrontendId"]} "
         table[task]["title"] = fr" [{r["title"]}](https://leetcode.com/problems/{task}/description/) "
         table[task]["files"] = r["files"]
-        table[task]["difficulty"] = (r" $${\color{" + colors[r["difficulty"]] +
-                                     r"}\textnormal{" + r["difficulty"] + r"}}$$ ")
+        table[task]["difficulty"] = fr" {colors[r['difficulty']]} "
 
 
 def convert_table(table: Dict[str, Dict[str, Any]],
