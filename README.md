@@ -205,6 +205,7 @@
 | 872 | [Leaf-Similar Trees](https://leetcode.com/problems/leaf-similar-trees/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/leaf-similar-trees.py) | 🟢 Easy |
 | 876 | [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/middle-of-the-linked-list.py) | 🟢 Easy |
 | 881 | [Boats to Save People](https://leetcode.com/problems/boats-to-save-people/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/boats-to-save-people.py) | 🟠 Medium |
+| 883 | [Projection Area of 3D Shapes](https://leetcode.com/problems/projection-area-of-3d-shapes/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/projection-area-of-3d-shapes.py) | 🟢 Easy |
 | 885 | [Spiral Matrix III](https://leetcode.com/problems/spiral-matrix-iii/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/spiral-matrix-iii.py) | 🟠 Medium |
 | 892 | [Surface Area of 3D Shapes](https://leetcode.com/problems/surface-area-of-3d-shapes/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/surface-area-of-3d-shapes.py) | 🟢 Easy |
 | 896 | [Monotonic Array](https://leetcode.com/problems/monotonic-array/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/monotonic-array.py) | 🟢 Easy |
@@ -306,6 +307,7 @@
 | 1534 | [Count Good Triplets](https://leetcode.com/problems/count-good-triplets/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/count-good-triplets.py) | 🟢 Easy |
 | 1535 | [Find the Winner of an Array Game](https://leetcode.com/problems/find-the-winner-of-an-array-game/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/find-the-winner-of-an-array-game.py) | 🟠 Medium |
 | 1550 | [Three Consecutive Odds](https://leetcode.com/problems/three-consecutive-odds/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/three-consecutive-odds.py) | 🟢 Easy |
+| 1556 | [Thousand Separator](https://leetcode.com/problems/thousand-separator/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/thousand-separator.py) | 🟢 Easy |
 | 1559 | [Detect Cycles in 2D Grid](https://leetcode.com/problems/detect-cycles-in-2d-grid/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/detect-cycles-in-2d-grid.py) | 🟠 Medium |
 | 1572 | [Matrix Diagonal Sum](https://leetcode.com/problems/matrix-diagonal-sum/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/matrix-diagonal-sum.py) | 🟢 Easy |
 | 1582 | [Special Positions in a Binary Matrix](https://leetcode.com/problems/special-positions-in-a-binary-matrix/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/special-positions-in-a-binary-matrix.py) | 🟢 Easy |
