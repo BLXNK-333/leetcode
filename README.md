@@ -192,6 +192,7 @@
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/daily-temperatures.py) | 🟠 Medium |
 | 744 | [Find Smallest Letter Greater Than Target](https://leetcode.com/problems/find-smallest-letter-greater-than-target/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/find-smallest-letter-greater-than-target.py) | 🟢 Easy |
 | 752 | [Open the Lock](https://leetcode.com/problems/open-the-lock/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/open-the-lock.py) | 🟠 Medium |
+| 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/partition-labels.py) | 🟠 Medium |
 | 769 | [Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/max-chunks-to-make-sorted.py) | 🟠 Medium |
 | 779 | [K-th Symbol in Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/k-th-symbol-in-grammar.py) | 🟠 Medium |
 | 783 | [Minimum Distance Between BST Nodes](https://leetcode.com/problems/minimum-distance-between-bst-nodes/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-distance-between-bst-nodes.py) | 🟢 Easy |
@@ -425,6 +426,7 @@
 | 2326 | [Spiral Matrix IV](https://leetcode.com/problems/spiral-matrix-iv/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/spiral-matrix-iv.py) | 🟠 Medium |
 | 2331 | [Evaluate Boolean Binary Tree](https://leetcode.com/problems/evaluate-boolean-binary-tree/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/evaluate-boolean-binary-tree.py) | 🟢 Easy |
 | 2337 | [Move Pieces to Obtain a String](https://leetcode.com/problems/move-pieces-to-obtain-a-string/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/move-pieces-to-obtain-a-string.py) | 🟠 Medium |
+| 2348 | [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/number-of-zero-filled-subarrays.py) | 🟠 Medium |
 | 2351 | [First Letter to Appear Twice](https://leetcode.com/problems/first-letter-to-appear-twice/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/first-letter-to-appear-twice.py) | 🟢 Easy |
 | 2353 | [Design a Food Rating System](https://leetcode.com/problems/design-a-food-rating-system/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/design-a-food-rating-system.py) | 🟠 Medium |
 | 2357 | [Make Array Zero by Subtracting Equal Amounts](https://leetcode.com/problems/make-array-zero-by-subtracting-equal-amounts/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/make-array-zero-by-subtracting-equal-amounts.py) | 🟢 Easy |
