@@ -1,1 +1,1 @@
-/home/blxnk/PycharmProjects/leetcode/organize_leetcode_repo/run.sh
+/mnt/storage/PycharmProjects/leetcode/organize_leetcode_repo/run.sh
