@@ -130,6 +130,7 @@
 | 290 | [Word Pattern](https://leetcode.com/problems/word-pattern/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/word-pattern.py) | 🟢 Easy |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/nim-game.py) | 🟢 Easy |
 | 326 | [Power of Three](https://leetcode.com/problems/power-of-three/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/power-of-three.py) | 🟢 Easy |
+| 345 | [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/reverse-vowels-of-a-string.py) | 🟢 Easy |
 | 349 | [Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/intersection-of-two-arrays.py) | 🟢 Easy |
 | 350 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/intersection-of-two-arrays-ii.py) | 🟢 Easy |
 | 368 | [Largest Divisible Subset](https://leetcode.com/problems/largest-divisible-subset/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/largest-divisible-subset.py) | 🟠 Medium |
