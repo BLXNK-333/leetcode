@@ -165,6 +165,7 @@
 | 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-time-difference.py) | 🟠 Medium |
 | 543 | [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/diameter-of-binary-tree.py) | 🟢 Easy |
 | 559 | [Maximum Depth of N-ary Tree](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/maximum-depth-of-n-ary-tree.py) | 🟢 Easy |
+| 561 | [Array Partition](https://leetcode.com/problems/array-partition/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/array-partition.py) | 🟢 Easy |
 | 563 | [Binary Tree Tilt](https://leetcode.com/problems/binary-tree-tilt/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/binary-tree-tilt.py) | 🟢 Easy |
 | 566 | [Reshape the Matrix](https://leetcode.com/problems/reshape-the-matrix/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/reshape-the-matrix.py) | 🟢 Easy |
 | 567 | [Permutation in String](https://leetcode.com/problems/permutation-in-string/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/permutation-in-string.py) | 🟠 Medium |
@@ -219,6 +220,7 @@
 | 916 | [Word Subsets](https://leetcode.com/problems/word-subsets/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/word-subsets.py) | 🟠 Medium |
 | 925 | [Long Pressed Name](https://leetcode.com/problems/long-pressed-name/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/long-pressed-name.py) | 🟢 Easy |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-falling-path-sum.py) | 🟠 Medium |
+| 933 | [Number of Recent Calls](https://leetcode.com/problems/number-of-recent-calls/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/number-of-recent-calls.py) | 🟢 Easy |
 | 934 | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/shortest-bridge.py) | 🟠 Medium |
 | 935 | [Knight Dialer](https://leetcode.com/problems/knight-dialer/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/knight-dialer.py) | 🟠 Medium |
 | 938 | [Range Sum of BST](https://leetcode.com/problems/range-sum-of-bst/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/range-sum-of-bst.py) | 🟢 Easy |
@@ -240,6 +242,7 @@
 | 1021 | [Remove Outermost Parentheses](https://leetcode.com/problems/remove-outermost-parentheses/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/remove-outermost-parentheses.py) | 🟢 Easy |
 | 1022 | [Sum of Root To Leaf Binary Numbers](https://leetcode.com/problems/sum-of-root-to-leaf-binary-numbers/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/sum-of-root-to-leaf-binary-numbers.py) | 🟢 Easy |
 | 1026 | [Maximum Difference Between Node and Ancestor](https://leetcode.com/problems/maximum-difference-between-node-and-ancestor/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/maximum-difference-between-node-and-ancestor.py) | 🟠 Medium |
+| 1037 | [Valid Boomerang](https://leetcode.com/problems/valid-boomerang/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/valid-boomerang.py) | 🟢 Easy |
 | 1042 | [Flower Planting With No Adjacent](https://leetcode.com/problems/flower-planting-with-no-adjacent/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/flower-planting-with-no-adjacent.py) | 🟠 Medium |
 | 1051 | [Height Checker](https://leetcode.com/problems/height-checker/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/height-checker.py) | 🟢 Easy |
 | 1052 | [Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/grumpy-bookstore-owner.py) | 🟠 Medium |
@@ -454,6 +457,7 @@
 | 2441 | [Largest Positive Integer That Exists With Its Negative](https://leetcode.com/problems/largest-positive-integer-that-exists-with-its-negative/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/largest-positive-integer-that-exists-with-its-negative.py) | 🟢 Easy |
 | 2460 | [Apply Operations to an Array](https://leetcode.com/problems/apply-operations-to-an-array/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/apply-operations-to-an-array.py) | 🟢 Easy |
 | 2461 | [Maximum Sum of Distinct Subarrays With Length K](https://leetcode.com/problems/maximum-sum-of-distinct-subarrays-with-length-k/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/maximum-sum-of-distinct-subarrays-with-length-k.py) | 🟠 Medium |
+| 2469 | [Convert the Temperature](https://leetcode.com/problems/convert-the-temperature/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/convert-the-temperature.py) | 🟢 Easy |
 | 2475 | [Number of Unequal Triplets in Array](https://leetcode.com/problems/number-of-unequal-triplets-in-array/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/number-of-unequal-triplets-in-array.py) | 🟢 Easy |
 | 2482 | [Difference Between Ones and Zeros in Row and Column](https://leetcode.com/problems/difference-between-ones-and-zeros-in-row-and-column/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/difference-between-ones-and-zeros-in-row-and-column.py) | 🟠 Medium |
 | 2487 | [Remove Nodes From Linked List](https://leetcode.com/problems/remove-nodes-from-linked-list/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/remove-nodes-from-linked-list.py) | 🟠 Medium |
