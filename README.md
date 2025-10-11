@@ -187,6 +187,7 @@
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/palindromic-substrings.py) | 🟠 Medium |
 | 661 | [Image Smoother](https://leetcode.com/problems/image-smoother/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/image-smoother.py) | 🟢 Easy |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/maximum-swap.py) | 🟠 Medium |
+| 680 | [Valid Palindrome II](https://leetcode.com/problems/valid-palindrome-ii/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/valid-palindrome-ii.py) | 🟢 Easy |
 | 693 | [Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/binary-number-with-alternating-bits.py) | 🟢 Easy |
 | 704 | [Binary Search](https://leetcode.com/problems/binary-search/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/binary-search.py) | 🟢 Easy |
 | 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/subarray-product-less-than-k.py) | 🟠 Medium |
