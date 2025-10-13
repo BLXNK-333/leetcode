@@ -44,6 +44,7 @@
 | 66 | [Plus One](https://leetcode.com/problems/plus-one/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/plus-one.py) | 🟢 Easy |
 | 68 | [Text Justification](https://leetcode.com/problems/text-justification/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/text-justification.py) | 🔴 Hard |
 | 71 | [Simplify Path](https://leetcode.com/problems/simplify-path/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/simplify-path.py) | 🟠 Medium |
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/set-matrix-zeroes.py) | 🟠 Medium |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/sort-colors.py) | 🟠 Medium |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-window-substring.py) | 🔴 Hard |
 | 77 | [Combinations](https://leetcode.com/problems/combinations/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/combinations.py) | 🟠 Medium |
@@ -231,6 +232,7 @@
 | 953 | [Verifying an Alien Dictionary](https://leetcode.com/problems/verifying-an-alien-dictionary/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/verifying-an-alien-dictionary.py) | 🟢 Easy |
 | 959 | [Regions Cut By Slashes](https://leetcode.com/problems/regions-cut-by-slashes/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/regions-cut-by-slashes.py) | 🟠 Medium |
 | 965 | [Univalued Binary Tree](https://leetcode.com/problems/univalued-binary-tree/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/univalued-binary-tree.py) | 🟢 Easy |
+| 976 | [Largest Perimeter Triangle](https://leetcode.com/problems/largest-perimeter-triangle/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/largest-perimeter-triangle.py) | 🟢 Easy |
 | 977 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/squares-of-a-sorted-array.py) | 🟢 Easy |
 | 983 | [Minimum Cost For Tickets](https://leetcode.com/problems/minimum-cost-for-tickets/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-cost-for-tickets.py) | 🟠 Medium |
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/smallest-string-starting-from-leaf.py) | 🟠 Medium |
