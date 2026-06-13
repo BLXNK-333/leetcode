@@ -568,3 +568,4 @@
 | 3674 | [Minimum Operations to Equalize Array](https://leetcode.com/problems/minimum-operations-to-equalize-array/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-operations-to-equalize-array.py) | 🟢 Easy |
 | 3683 | [Earliest Time to Finish One Task](https://leetcode.com/problems/earliest-time-to-finish-one-task/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/earliest-time-to-finish-one-task.py) | 🟢 Easy |
 | 3692 | [Majority Frequency Characters](https://leetcode.com/problems/majority-frequency-characters/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/majority-frequency-characters.py) | 🟢 Easy |
+| 3838 | [Weighted Word Mapping](https://leetcode.com/problems/weighted-word-mapping/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/weighted-word-mapping.py) | 🟢 Easy |
