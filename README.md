@@ -123,6 +123,7 @@
 | 238 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/product-of-array-except-self.py) | 🟠 Medium |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/valid-anagram.py) | 🟢 Easy |
 | 257 | [Binary Tree Paths](https://leetcode.com/problems/binary-tree-paths/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/binary-tree-paths.py) | 🟢 Easy |
+| 258 | [Add Digits](https://leetcode.com/problems/add-digits/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/add-digits.py) | 🟢 Easy |
 | 260 | [Single Number III](https://leetcode.com/problems/single-number-iii/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/single-number-iii.py) | 🟠 Medium |
 | 274 | [H-Index](https://leetcode.com/problems/h-index/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/h-index.py) | 🟠 Medium |
 | 279 | [Perfect Squares](https://leetcode.com/problems/perfect-squares/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/perfect-squares.py) | 🟠 Medium |
@@ -432,6 +433,7 @@
 | 2220 | [Minimum Bit Flips to Convert Number](https://leetcode.com/problems/minimum-bit-flips-to-convert-number/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/minimum-bit-flips-to-convert-number.py) | 🟢 Easy |
 | 2225 | [Find Players With Zero or One Losses](https://leetcode.com/problems/find-players-with-zero-or-one-losses/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/find-players-with-zero-or-one-losses.py) | 🟠 Medium |
 | 2236 | [Root Equals Sum of Children](https://leetcode.com/problems/root-equals-sum-of-children/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/root-equals-sum-of-children.py) | 🟢 Easy |
+| 2243 | [Calculate Digit Sum of a String](https://leetcode.com/problems/calculate-digit-sum-of-a-string/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/calculate-digit-sum-of-a-string.py) | 🟢 Easy |
 | 2255 | [Count Prefixes of a Given String](https://leetcode.com/problems/count-prefixes-of-a-given-string/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/count-prefixes-of-a-given-string.py) | 🟢 Easy |
 | 2259 | [Remove Digit From Number to Maximize Result](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/remove-digit-from-number-to-maximize-result.py) | 🟢 Easy |
 | 2265 | [Count Nodes Equal to Average of Subtree](https://leetcode.com/problems/count-nodes-equal-to-average-of-subtree/description/) | [py](https://github.com/BLXNK-333/leetcode/blob/main/solutions/py/count-nodes-equal-to-average-of-subtree.py) | 🟠 Medium |
